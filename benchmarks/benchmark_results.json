@@ -1,0 +1,31 @@
+{
+  "project": "Adversarial Fake News & Misinformation NLP Classifier",
+  "dataset": "Synthesized Adversarial Disinformation Corpus (N=1,200, 1-2 n-grams)",
+  "validation_scheme": "5-Fold Stratified Cross-Validation",
+  "results": [
+    {
+      "model": "TF-IDF + Logistic Regression",
+      "accuracy": 0.8925,
+      "precision": 0.8998,
+      "recall": 0.8833,
+      "f1": 0.8915,
+      "roc_auc": 0.9075
+    },
+    {
+      "model": "TF-IDF + Complement Naive Bayes",
+      "accuracy": 0.8775,
+      "precision": 0.8807,
+      "recall": 0.8733,
+      "f1": 0.877,
+      "roc_auc": 0.9029
+    },
+    {
+      "model": "TF-IDF + Passive-Aggressive",
+      "accuracy": 0.8217,
+      "precision": 0.8238,
+      "recall": 0.8183,
+      "f1": 0.8211,
+      "roc_auc": 0.879
+    }
+  ]
+}

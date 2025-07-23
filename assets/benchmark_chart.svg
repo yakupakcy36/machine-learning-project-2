@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 430" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="860" height="430" rx="12" fill="url(#bgGrad)" stroke="#334155" stroke-width="1.5"/>
+  <text x="32" y="42" fill="#f8fafc" font-family="Segoe UI, Inter, sans-serif" font-size="20" font-weight="700">Adversarial Fake News &amp; Misinformation NLP Classifier — 5-Fold CV</text>
+  <text x="32" y="66" fill="#94a3b8" font-family="Segoe UI, Inter, sans-serif" font-size="13">Sublinear TF-IDF (1–2 n-grams) | N = 1,200 Articles (9% Adversarial Camouflage)</text>
+  <rect x="32" y="84" width="12" height="12" rx="3" fill="#38bdf8"/>
+  <text x="50" y="94" fill="#cbd5e1" font-family="Segoe UI, Inter, sans-serif" font-size="12" font-weight="600">ROC-AUC</text>
+  <rect x="197" y="84" width="12" height="12" rx="3" fill="#a78bfa"/>
+  <text x="215" y="94" fill="#cbd5e1" font-family="Segoe UI, Inter, sans-serif" font-size="12" font-weight="600">F1-Score</text>
+  <rect x="362" y="84" width="12" height="12" rx="3" fill="#34d399"/>
+  <text x="380" y="94" fill="#cbd5e1" font-family="Segoe UI, Inter, sans-serif" font-size="12" font-weight="600">Accuracy</text>
+  <rect x="527" y="84" width="12" height="12" rx="3" fill="#f472b6"/>
+  <text x="545" y="94" fill="#cbd5e1" font-family="Segoe UI, Inter, sans-serif" font-size="12" font-weight="600">Precision</text>
+  <line x1="250.0" y1="114" x2="250.0" y2="388" stroke="#334155" stroke-dasharray="4,4" stroke-width="1"/>
+  <text x="250.0" y="408" fill="#64748b" font-family="Segoe UI, Inter, sans-serif" font-size="11" text-anchor="middle">0.00</text>
+  <line x1="388.8" y1="114" x2="388.8" y2="388" stroke="#334155" stroke-dasharray="4,4" stroke-width="1"/>
+  <text x="388.8" y="408" fill="#64748b" font-family="Segoe UI, Inter, sans-serif" font-size="11" text-anchor="middle">0.25</text>
+  <line x1="527.5" y1="114" x2="527.5" y2="388" stroke="#334155" stroke-dasharray="4,4" stroke-width="1"/>
+  <text x="527.5" y="408" fill="#64748b" font-family="Segoe UI, Inter, sans-serif" font-size="11" text-anchor="middle">0.50</text>
+  <line x1="666.2" y1="114" x2="666.2" y2="388" stroke="#334155" stroke-dasharray="4,4" stroke-width="1"/>
+  <text x="666.2" y="408" fill="#64748b" font-family="Segoe UI, Inter, sans-serif" font-size="11" text-anchor="middle">0.75</text>
+  <line x1="805.0" y1="114" x2="805.0" y2="388" stroke="#334155" stroke-dasharray="4,4" stroke-width="1"/>
+  <text x="805.0" y="408" fill="#64748b" font-family="Segoe UI, Inter, sans-serif" font-size="11" text-anchor="middle">1.00</text>
+  <text x="236" y="158" fill="#f1f5f9" font-family="Segoe UI, Inter, sans-serif" font-size="13" font-weight="600" text-anchor="end">TF-IDF + Logistic Regression</text>
+  <rect x="250" y="122" width="503.7" height="14" rx="3" fill="#38bdf8" opacity="0.92"/>
+  <text x="761.7" y="133" fill="#e2e8f0" font-family="Consolas, monospace" font-size="11" font-weight="600">0.9075</text>
+  <rect x="250" y="140" width="494.8" height="14" rx="3" fill="#a78bfa" opacity="0.92"/>
+  <text x="752.8" y="151" fill="#e2e8f0" font-family="Consolas, monospace" font-size="11" font-weight="600">0.8915</text>
+  <rect x="250" y="158" width="495.3" height="14" rx="3" fill="#34d399" opacity="0.92"/>
+  <text x="753.3" y="169" fill="#e2e8f0" font-family="Consolas, monospace" font-size="11" font-weight="600">0.8925</text>
+  <rect x="250" y="176" width="499.4" height="14" rx="3" fill="#f472b6" opacity="0.92"/>
+  <text x="757.4" y="187" fill="#e2e8f0" font-family="Consolas, monospace" font-size="11" font-weight="600">0.8998</text>
+  <text x="236" y="250" fill="#f1f5f9" font-family="Segoe UI, Inter, sans-serif" font-size="13" font-weight="600" text-anchor="end">TF-IDF + Complement Naive Bayes</text>
+  <rect x="250" y="214" width="501.1" height="14" rx="3" fill="#38bdf8" opacity="0.92"/>
+  <text x="759.1" y="225" fill="#e2e8f0" font-family="Consolas, monospace" font-size="11" font-weight="600">0.9029</text>
+  <rect x="250" y="232" width="486.7" height="14" rx="3" fill="#a78bfa" opacity="0.92"/>
+  <text x="744.7" y="243" fill="#e2e8f0" font-family="Consolas, monospace" font-size="11" font-weight="600">0.8770</text>
+  <rect x="250" y="250" width="487.0" height="14" rx="3" fill="#34d399" opacity="0.92"/>
+  <text x="745.0" y="261" fill="#e2e8f0" font-family="Consolas, monospace" font-size="11" font-weight="600">0.8775</text>
+  <rect x="250" y="268" width="488.8" height="14" rx="3" fill="#f472b6" opacity="0.92"/>
+  <text x="746.8" y="279" fill="#e2e8f0" font-family="Consolas, monospace" font-size="11" font-weight="600">0.8807</text>
+  <text x="236" y="342" fill="#f1f5f9" font-family="Segoe UI, Inter, sans-serif" font-size="13" font-weight="600" text-anchor="end">TF-IDF + Passive-Aggressive</text>
+  <rect x="250" y="306" width="487.8" height="14" rx="3" fill="#38bdf8" opacity="0.92"/>
+  <text x="745.8" y="317" fill="#e2e8f0" font-family="Consolas, monospace" font-size="11" font-weight="600">0.8790</text>
+  <rect x="250" y="324" width="455.7" height="14" rx="3" fill="#a78bfa" opacity="0.92"/>
+  <text x="713.7" y="335" fill="#e2e8f0" font-family="Consolas, monospace" font-size="11" font-weight="600">0.8211</text>
+  <rect x="250" y="342" width="456.0" height="14" rx="3" fill="#34d399" opacity="0.92"/>
+  <text x="714.0" y="353" fill="#e2e8f0" font-family="Consolas, monospace" font-size="11" font-weight="600">0.8217</text>
+  <rect x="250" y="360" width="457.2" height="14" rx="3" fill="#f472b6" opacity="0.92"/>
+  <text x="715.2" y="371" fill="#e2e8f0" font-family="Consolas, monospace" font-size="11" font-weight="600">0.8238</text>
+</svg>
